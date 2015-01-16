@@ -10,3 +10,10 @@ For the stopwords:
 4. nltk.download()
 
 You'll need Twitter API keys for the twitter transforms (duh). dev.twitter.com
+
+For probing stuff you need:
+1. a monitoring interface preferably with injection drives (airmon-ng start wlan0)
+2. A mysql db with a probes table with MAC, SSID and time tables
+3. patience
+
+There may be bugs.
