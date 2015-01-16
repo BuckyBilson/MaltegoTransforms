@@ -1,0 +1,8 @@
+machine("Cam.Probing", 
+        displayName:"Probing", 
+        author:"Cam",
+        description: "") {
+        onTimer(15) {path{run("cam.Probing")}
+            run("Cam.pullssids")
+        }
+    }
