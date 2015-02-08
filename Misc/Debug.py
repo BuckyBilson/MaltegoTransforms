@@ -1,7 +1,4 @@
-from twitter import *
-import os
 import sys
-from collections import Counter
 
 print"<MaltegoMessage>"
 print"<MaltegoTransformResponseMessage>"
