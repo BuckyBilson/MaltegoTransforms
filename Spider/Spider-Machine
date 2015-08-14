@@ -1,0 +1,6 @@
+start{
+  paths{
+    run("BuckyBilson.Url-spider")
+    }
+  run("BuckyBilson.Email-spider")
+  }
